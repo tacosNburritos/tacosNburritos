@@ -1,0 +1,167 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet NewJeans</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="module">
+        import Chatbox from 'https://cdn.jsdelivr.net/npm/@chaindesk/embeds@latest/dist/chatbox/index.js';
+      
+        const widget = await Chatbox.initBubble({
+          agentId: 'clzr30vvf02fbr0oetc6ezx7a',
+          
+          // optional 
+          // If provided will create a contact for the user and link it to the conversation
+          contact: {
+            firstName: 'Master',
+            userId: '42424242',
+          },
+          // optional
+          // Override initial messages
+          initialMessages: [
+            'Hello Georges how are you doing today?',
+            'How can I help you ?',
+          ],
+          // optional
+          // Provided context will be appended to the Agent system prompt
+          context: "The user you are talking to is Master. Start by Greeting him by his name.",
+        });
+      
+        // open the chat bubble
+        widget.open();
+      
+        // close the chat bubble
+        widget.close()
+      
+        // or 
+        widget.toggle()
+      </script>
+</head>
+<style>
+  .carousel-item img {
+    height: 600px;
+    object-fit: cover;
+  }
+  .bg-dark1{
+    background-color: #0f0e0d;
+  }
+  body{
+    background-color: #ebdfdd;
+    font-family: 'Poppins';
+    color: #0f0e0d;
+  }
+  .navbar{
+    font-size: larger;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  .text{
+    font-size: 7vmax;
+  }
+  .text1{
+    text-align: justify;
+  }
+  .text img{
+    width: 50vmax;
+    height: auto;
+  }
+  .hypermedia a{
+    color: #0f0e0d;
+    text-decoration: none;
+  }
+  .hypermedia a:hover{
+    text-decoration: underline;
+  }
+  .card{
+    background-color: #ebdfdd;
+    border: #ebdfdd;
+  }
+  .card-text{
+    text-align: justify;
+  }
+  .card:hover{
+    transform: scale(1.05);
+    transition: 0.4s;
+  }
+</style>
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark1" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-4" href="index.html"><b>NEWJEANS</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item me-1">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item me-4">
+            <a class="nav-link active" aria-current="page" href="02 - about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="text">
+    <center><b> &nbsp; MEET</b><img src="images/NEWJEANS-8-26-2024.png"></center>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 d-flex justify-content-center">
+        <div class="card" style="width: 20rem;">
+          <img src="images/1hanni.jpg" class="card-img-top" style="height: 450px; object-fit: cover;">
+          <div class="card-body">
+            <p class="card-text"><center> <b>HANNI</b></center></p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-md-2 d-flex justify-content-center">
+        <div class="card" style="width: 20rem;">
+          <img src="images/1haerin.jpg" class="card-img-top" style="height: 450px; object-fit: cover;">
+          <div class="card-body">
+            <p class="card-text"><center><b>HAERIN</b></center></p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-md-2 d-flex justify-content-center">
+        <div class="card" style="width: 20rem;">
+          <img src="images/1minji.jpg" class="card-img-top" style="height: 450px; object-fit: cover;">
+          <div class="card-body">
+            <p class="card-text"><CENter><b>MINJI</b></CENter></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-2 d-flex justify-content-center">
+        <div class="card" style="width: 20rem;">
+          <img src="images/1hyein.jpg" class="card-img-top" style="height: 450px; object-fit: cover;">
+          <div class="card-body">
+            <p class="card-text"><center><b>HYEIN</b></center></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 d-flex justify-content-center">
+        <div class="card" style="width: 20rem;">
+          <img src="images/1danielle.jpg" class="card-img-top" style="height: 450px; object-fit: cover;">
+          <div class="card-body">
+            <p class="card-text"><center><b>DANIELLE</b></center></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="text1">NewJeans is a South Korean girl group that debuted in July 2022 under ADOR, a subsidiary of HYBE Corporation. The group consists of five members: Minji, Hanni, Danielle, Haerin, and Hyein. They quickly gained attention for their fresh and nostalgic concept, blending elements of Y2K fashion with a modern twist. Their debut single, "Attention," became an instant hit, showcasing their youthful energy and catchy melodies. NewJeans' music and visuals have been praised for their unique approach, setting them apart in the competitive K-pop industry.</div>
+  </div>
+
+
+</body>
+</html>
